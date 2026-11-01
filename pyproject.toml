@@ -1,7 +1,7 @@
 [project]
 name = "tiny-mlx-engine"
 version = "0.1.0"
-description = "Add your description here"
+description = "A small LLM inference engine for Apple Silicon, built from scratch on MLX"
 readme = "README.md"
 authors = [
     { name = "D Ajay Kumar" }
