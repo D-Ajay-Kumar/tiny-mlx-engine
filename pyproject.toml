@@ -1,0 +1,19 @@
+[project]
+name = "tiny-mlx-engine"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "D Ajay Kumar" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "mlx==0.32.4",
+]
+
+[project.scripts]
+tiny-mlx-engine = "tiny_mlx_engine:main"
+
+[build-system]
+requires = ["uv_build>=0.12.7,<0.13.0"]
+build-backend = "uv_build"
